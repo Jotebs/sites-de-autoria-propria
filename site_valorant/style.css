@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: valorant;
+    src: url(fontes/Valorant\ Font.ttf) format('truetype');
+}
+
+:root{
+--cor1: RGB(253, 69, 86);
+--cor2: RGB(189, 57, 68);
+--cor3: RGB(83, 33, 43);
+--cor4: RGB(255, 251, 245);
+--cor5: RGB(0, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(156, 127, 127);
+    color: var(--cor4);
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(100, 14, 14);
+    color: var(--cor4);
+    text-align: center;
+    font-family: valorant, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 30px;
+    border: 0px;
+}
+
+nav{
+    font-family: valorant;
+    text-align: left;
+}
+
+.menu{
+    color: var(--cor1);
+    transition-duration: 0.6s;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav > a:hover{
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    background-color: rgb(59, 19, 19);
+}
+
+#home{
+    font-size: xx-large;
+    text-align: center;
+    font-family: valorant, Arial, Helvetica, sans-serif;
+}
+
+#home > p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+     background-color: rgb(41, 41, 41);
+     color: rgb(245, 245, 245);
+     margin: 0px 70px 0px 70px;
+     padding: 10px;
+}
+
+#agentes > h2{
+    font-size: xx-large;
+    text-align: center;
+    font-family: valorant, Arial, Helvetica, sans-serif;
+}
+
+li{
+    font-weight: bolder;
+    font-family: valorant, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+}
+
+#duelista::after{
+    content: url(imagens/4987-duelist-valorant.png);
+}
+
+.imagens{
+    text-align: center;
+    width: 100%;
+}
+
+#controlador::after{
+    content: url(imagens/8733-controller-valorant.png);
+}
+
+#iniciador::after{
+    content: url(imagens/3452-initiator-valorant.png);
+}
+
+#sentinela::after{
+    content: url(imagens/5030-sentinel-valorant.png);
+}
+
+h2{
+    font-family: valorant, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+h3{
+    font-family: valorant, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+}
+
+p, h3{
+    font-weight: bold;
+}
+
+aside{
+    background-color: rgb(27, 1, 1);
+    border-radius: 10px;
+}
+
+aside > p{
+    background-color: rgb(82, 21, 21);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+iframe{
+    padding: 10px;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    height: 20px;
+}
+footer > p{
+    text-align: center;
+}
+
+#mapas{
+    transition-duration: 0.5s;
+}
